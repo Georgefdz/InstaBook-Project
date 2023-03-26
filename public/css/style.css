@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Finger Paint';
+    src: url('/fonts/FingerPaint.ttf') format('truetype');
+}
+
+.spanPaint {
+    font-family: 'Finger Paint', cursive;
+}
+
+/* About page styles */
+.about-section {
+    margin-top: 2rem;
+  }
+  
+  .profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 1rem;
+  }
+  
+  .social-icon {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .social-icon:hover {
+    color: #007bff;
+}
+
+/* Contact page styles */
+.contact-section {
+  margin-top: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+/* Navbar styles */
+.navbar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.nav-link {
+  color: #333;
+}
+
+.nav-link:hover {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Fixed header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; /* Add this line */
+    z-index: 1000;
+    background-color: #ffffff;
+    box-sizing: border-box;
+  }
+  
+  /* Add top padding to the main content */
+  main {
+    padding-top: 130px; /* Increase this value */
+  }
+  
+  
