@@ -75,5 +75,28 @@ header {
   main {
     padding-top: 130px; /* Increase this value */
   }
+
+  @media (max-width: 768px) {
+    /* Add styles for mobile devices here */
+    .navbar {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
   
+    .navbar-brand {
+      font-size: 18px;
+    }
+  
+    .navbar-nav {
+      font-size: 14px;
+    }
+  
+    .navbar-toggler {
+      font-size: 14px;
+    }
+  
+    .text-center {
+      font-size: 14px;
+    }
+  }
   
