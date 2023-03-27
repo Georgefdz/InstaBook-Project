@@ -7,6 +7,10 @@
     font-family: 'Finger Paint', cursive;
 }
 
+.clickableTitle {
+    font-family: 'Finger Paint', cursive;
+}
+
 /* About page styles */
 .about-section {
     margin-top: 2rem;
