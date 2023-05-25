@@ -8,6 +8,7 @@
 }
 
 .clickableTitle {
+    margin-top: 1rem;
     font-family: 'Finger Paint', cursive;
 }
 
@@ -74,15 +75,16 @@ header {
     background-color: #ffffff;
     box-sizing: border-box;
   }
-  
-  /* Add top padding to the main content */
-  main {
-    padding-top: 130px; /* Increase this value */
+
+.image-container {
+  margin-top: 5rem;
   }
+  
 
   @media (max-width: 768px) {
     /* Add styles for mobile devices here */
     .post-image-container {
+      margin-top: 5rem;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -125,5 +127,36 @@ header {
   
   .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+
+  /* .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #353535;
+    font-size: 3rem;
+    color: #fff;
+    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    transition: all 500ms;
+    overflow: hidden;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  } */
+
+  .card {
+    margin-top: 6rem;
+    margin-bottom: -6rem;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .card:hover {
+    transform: translateY(-3px) scale(1.06);
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35rem 1.175rem, rgba(2, 8, 20, 0.08) 0px 0.175rem 0.35rem;
   }
   
